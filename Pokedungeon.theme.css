@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.3
+ * @version 0.4
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -15,15 +15,64 @@
 
 /* Channels */
 
-/* Sidebar Looks*/
-.scroller-2wx7Hm {
+.clickable-2ap7je .header-2o-2hj {
 	border:2px solid #465CD5;
-	outline:4px solid #5D7EF3;
+	border:5px solid #5D7EF3;
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
+	background-color: #25496D;
 }
+
+/* Sidebar Looks*/
+.scroller-2wx7Hm {
+	border:2px solid #465CD5;
+	border:5px solid #5D7EF3;
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
+	background-color: #25496D;
+}
+
+.wrapper-CU3qI5 {
+	border:2px solid #465CD5;
+	border:5px solid #5D7EF3;
+}
+
+.unread-3zKkbm:after {
+	color: #FFFFFF;
+	content: "!";
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: -10px;
+	text-shadow: 1px 1px 0px #000000,
+	-1px 1px 0px #000000,
+	-1px -1px 0px #000000,
+	1px -1px 0px #000000;
+}
+@keyframes blinkingText{
+    50%{    color:#FFFFFF; text-shadow: 2px 2px 0 #000000;}
+}
+
+/* Categories */
+.name-IbjUBS {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 15px;	
+	text-shadow: 1px 1px 0px #000000;
+	text-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+}
+
+/* Server Name */
+.clickable-2ap7je .header-2o-2hj {
+	font-family: PKMN Mystery Dungeon;
+	text-shadow: 1px 1px 0px #000000;
+	text-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+}
+
 
 /* Channel Font */
 .name-3_Dsmg {
@@ -31,13 +80,22 @@
 	font-size: 20px;	
 	text-shadow: 1px 1px 0px #000000;
 	text-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
 }
+
+
 
 /* Channel Selector */
-.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
-    background-image: url(https://i.imgur.com/gtFxg10.png)
+.modeSelected-1zApJ_:before {
+	content: "▶";
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0px #000000,
+	-1px 1px 0px #000000,
+	-1px -1px 0px #000000,
+	1px -1px 0px #000000;
+	float: left;
+	margin-top: 4%;
 }
-
 
 /*Chat Stuffs*/
 
@@ -55,8 +113,8 @@
 	border-radius: 5px;
 	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow:1px 1px 0 #000000,
+		2px 2px 0px #000000;
 	background-color: #25496D;
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
@@ -83,8 +141,8 @@
 	border-radius: 5px;
 	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow:1px 1px 0 #000000,
+		2px 2px 0px #000000;
 	background-color: #25496D;
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
@@ -100,8 +158,8 @@
 	border-radius: 5px;
 	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow:1px 1px 0 #000000,
+		2px 2px 0px #000000;
 	background-color: #25496D;
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
