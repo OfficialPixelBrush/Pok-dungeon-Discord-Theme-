@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.4
+ * @version 0.5
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -26,7 +26,7 @@
 }
 
 /* Sidebar Looks*/
-.scroller-2wx7Hm {
+.scroller-2wx7Hm, .scroller-2TZvBN, .container-3baos1 {
 	border:2px solid #465CD5;
 	border:5px solid #5D7EF3;
 	padding-top: 2px;
@@ -36,21 +36,27 @@
 	background-color: #25496D;
 }
 
+/* Folder Looks */
+.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK, .childWrapper-anI2G9, #bd-pub-button {
+	background-color: #1b354f;
+}
+
 .wrapper-CU3qI5 {
 	border:2px solid #465CD5;
 	border:5px solid #5D7EF3;
 }
 
-.unread-3zKkbm:after {
+.unread-3zKkbm:before {
+	
 	color: #FFFFFF;
 	content: "!";
 	font-weight: bold;
 	font-size: 20px;
-	padding-top: -10px;
 	text-shadow: 1px 1px 0px #000000,
 	-1px 1px 0px #000000,
 	-1px -1px 0px #000000,
 	1px -1px 0px #000000;
+	margin-top: -10px;
 }
 @keyframes blinkingText{
     50%{    color:#FFFFFF; text-shadow: 2px 2px 0 #000000;}
@@ -122,17 +128,14 @@
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
-/*
-	margin: 10px 0 0 10px;
+	float: left;
   	white-space: nowrap;
   	overflow: hidden;
-  	width: 100%;
-  	animation: type 3s steps(60, end); 
-*/
+  	animation: type .5s steps(60, end); 
 }
 
 @keyframes type{ 
-  from { width: 0; } 
+	
 } 
 
 /* Chat Username */
@@ -152,11 +155,18 @@
   	padding-left: 2px;
 }
 
-/* Chat Images */
-.imageWrapper-2p5ogY img {
+.messages-3amgkR {
+	/* Replace this with your custom background image*/
+	background-image: url(https://i.imgur.com/KFBqCiN.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Chat Images */
+img {
 	text-indent: 5px;
 	border-radius: 5px;
-	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
@@ -169,4 +179,11 @@
   	padding-left: 2px;
 }
 
-
+/*
+.childWrapper-anI2G9, .wrapper-1BJsBx, .wrapper-25eVIn {
+	border-radius: 5px;
+	height: 42px;
+	width: 42px;
+	border:1px solid #465CD5;
+	border:3px solid #5D7EF3;	
+}*/
