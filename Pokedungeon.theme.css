@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.2
+ * @version 0.3
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -14,17 +14,28 @@
 /* Server Stuffs */
 
 /* Channels */
+
+/* Sidebar Looks*/
 .scroller-2wx7Hm {
 	border:2px solid #465CD5;
 	outline:4px solid #5D7EF3;
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
 }
 
-
+/* Channel Font */
 .name-3_Dsmg {
 	font-family: PKMN Mystery Dungeon;
 	font-size: 20px;	
 	text-shadow: 1px 1px 0px #000000;
 	text-shadow: 2px 2px 0px #000000;
+}
+
+/* Channel Selector */
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-image: url(https://i.imgur.com/gtFxg10.png)
 }
 
 
@@ -41,7 +52,6 @@
 
 /* Chat Messages */
 .markupRtl-3M0hmN {
-	text-indent: 5px;
 	border-radius: 5px;
 	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;
@@ -50,6 +60,10 @@
 	background-color: #25496D;
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
 }
 
 /* Chat Username */
@@ -80,6 +94,10 @@
 	background-color: #25496D;
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
 }
 
 
