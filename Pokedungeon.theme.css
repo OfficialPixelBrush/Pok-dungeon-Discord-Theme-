@@ -64,7 +64,18 @@
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
+/*
+	margin: 10px 0 0 10px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	width: 100%;
+  	animation: type 3s steps(60, end); 
+*/
 }
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
 
 /* Chat Username */
 .username-1A8OIy {
