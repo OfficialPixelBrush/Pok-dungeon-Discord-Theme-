@@ -19,4 +19,4 @@ How do I replace the colors?
 How do I replace/get rid of the Background?
 - Open Notepad (or any text editor of your choice)
 - Find the String "background image"
-- You should now be right where the image link to the background goes. This has to be a image file, not some indirect link
+- You should now be right where the image link to the background goes. This has to be a image file, not some indirect link (if you simply delete the string, it'll be replaced with whatever you have "sec_bg_color" set to)
