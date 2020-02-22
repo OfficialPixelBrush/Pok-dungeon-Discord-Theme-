@@ -11,3 +11,12 @@ A attempt to replicate the design queues of the first Pokémon Mystery Dungeon G
 - Place the Pokedungeon.theme.css file in your Themes folder (Mine is in C:\Users\[name]\AppData\Roaming\BetterDiscord\themes)
 - Restart Discord
 - Enable it in your Themes Tab
+
+# FAQ
+How do I replace the colors?
+- The accent colors should be near the top of the file, ya gotta replace the contained hex values with the ones you want
+
+How do I replace/get rid of the Background?
+- Open Notepad (or any text editor of your choice)
+- Find the String "background image"
+- You should now be right where the image link to the background goes. This has to be a image file, not some indirect link
