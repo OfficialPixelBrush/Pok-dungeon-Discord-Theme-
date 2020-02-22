@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.5
+ * @version 0.5.1
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -10,6 +10,36 @@
 /*
 - Logo -
 */
+
+/* Text Bar */
+.headerTop-3C2Zn0, .fontSize16Padding-3Wk7zP{
+	background-color: #1b354f;
+	font-family: PKMN Mystery Dungeon;
+	font-size: 24px;
+}
+.form-2fGMdU {
+	outline:5px solid #5D7EF3;
+	background-color: #25496D;
+}
+
+/* Profile Stuff*/
+.wrapper-3t9DeA {
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
+	border-radius: 5px;
+}
+
+.header-QKLPzZ, .activity-1ythUs, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .headerTop-3C2Zn0{
+	border:2px solid #465CD5;
+	border:5px solid #5D7EF3;
+	padding-top: 2px;
+  	padding-right: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 2px;
+	background-color: #25496D;
+}
 
 /* Server Stuffs */
 
@@ -24,6 +54,7 @@
   	padding-left: 2px;
 	background-color: #25496D;
 }
+
 
 /* Sidebar Looks*/
 .scroller-2wx7Hm, .scroller-2TZvBN, .container-3baos1 {
@@ -41,22 +72,24 @@
 	background-color: #1b354f;
 }
 
+/* Category Stuff */
 .wrapper-CU3qI5 {
-	border:2px solid #465CD5;
-	border:5px solid #5D7EF3;
+	outline:2px solid #465CD5;
+	outline:5px solid #5D7EF3;
 }
 
+/* Notification !*/
 .unread-3zKkbm:before {
-	
+	font-family: PKMN Mystery Dungeon;
 	color: #FFFFFF;
 	content: "!";
-	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	text-shadow: 1px 1px 0px #000000,
-	-1px 1px 0px #000000,
-	-1px -1px 0px #000000,
-	1px -1px 0px #000000;
-	margin-top: -10px;
+	2px 2px 0px #000000;
+	position: relative;
+	bottom: 10px;
+	animation: blinkingText;
+	background-color: #25496D;
 }
 @keyframes blinkingText{
     50%{    color:#FFFFFF; text-shadow: 2px 2px 0 #000000;}
@@ -66,16 +99,16 @@
 .name-IbjUBS {
 	font-family: PKMN Mystery Dungeon;
 	font-size: 15px;	
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
 	color: #FFFFFF;
 }
 
 /* Server Name */
 .clickable-2ap7je .header-2o-2hj {
 	font-family: PKMN Mystery Dungeon;
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
 	color: #FFFFFF;
 }
 
@@ -84,8 +117,8 @@
 .name-3_Dsmg {
 	font-family: PKMN Mystery Dungeon;
 	font-size: 20px;	
-	text-shadow: 1px 1px 0px #000000;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
 	color: #FFFFFF;
 }
 
@@ -96,9 +129,7 @@
 	content: "▶";
 	color: #FFFFFF;
 	text-shadow: 1px 1px 0px #000000,
-	-1px 1px 0px #000000,
-	-1px -1px 0px #000000,
-	1px -1px 0px #000000;
+	2px 2px 0px #000000;
 	float: left;
 	margin-top: 4%;
 }
@@ -128,15 +159,7 @@
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
-	float: left;
-  	white-space: nowrap;
-  	overflow: hidden;
-  	animation: type .5s steps(60, end); 
 }
-
-@keyframes type{ 
-	
-} 
 
 /* Chat Username */
 .username-1A8OIy {
@@ -155,6 +178,7 @@
   	padding-left: 2px;
 }
 
+/* Chat Contents*/
 .messages-3amgkR {
 	/* Replace this with your custom background image*/
 	background-image: url(https://i.imgur.com/KFBqCiN.png);
@@ -163,7 +187,8 @@
 	background-size: cover;
 }
 
-/*Chat Images */
+/*
+Chat Images
 img {
 	text-indent: 5px;
 	border-radius: 5px;
@@ -179,11 +204,10 @@ img {
   	padding-left: 2px;
 }
 
-/*
 .childWrapper-anI2G9, .wrapper-1BJsBx, .wrapper-25eVIn {
 	border-radius: 5px;
 	height: 42px;
 	width: 42px;
 	border:1px solid #465CD5;
 	border:3px solid #5D7EF3;	
-}*/
+}
