@@ -11,15 +11,99 @@
 - Logo -
 */
 
+:root {
+	/* Custom Colors go here */
+	--highlight_color: #A8C0E0;
+	--middle_color: #6080F8;
+	--dark_color: #4820F8;
+	--bg_color: #204868;
+	--sec_bg_color: #1b354f;
+}
+
+/* Top Bar */
+.container-1r6BKw, .container-1r6BKw *, .title-29uC1r {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 20px;	
+}
+
+.container-1r6BKw.themed-ANHk51 {
+	background-color: var(--bg_color);
+}
+
+/* Member Sidebar */
+.members-1998pB {
+	background-color: var(--sec_bg_color);
+}
+
+/* Context Menu */
+.contextMenu-HLZMGh {
+	font-family: PKMN Mystery Dungeon;
+	background-color: var(--sec_bg_color);
+}
+
+.label-JWQiNe {
+	font-size: 24px;	
+	background-color: var(--sec_bg_color);
+}
+
+/* Friends List */
+.layout-2DM8Md {
+	font-family: PKMN Mystery Dungeon;
+	border:5px solid var(--middle_color);
+	background-color: var(--bg_color);
+	font-size: 40px;	
+}
+
+/* Username */
+.roleColor-rz2vM0 {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 20px;
+}
+
+/* Activity Text */
+.activityText-yGKsKm, .headerText-1HLrL7{
+	font-family: PKMN Mystery Dungeon;
+	font-size: 16px;	
+}
+
+.activity-11LB_k, .theme-dark .activityUserPopout-2yItg2  {
+	background-color: var(--bg_color);
+	border:5px solid var(--middle_color);
+	font-family: PKMN Mystery Dungeon;
+	font-size: 16px;	
+}
+
+/* Bot Tag */
+.botTag-3W9SuW, .activityStreamPreview-3r3GiX .textRow-19NEd_, .activityUserPopout-2yItg2 .textRow-19NEd_ {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 16px;		
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+	font-family: PKMN Mystery Dungeon;
+	border:5px solid var(--middle_color);
+	background-color: var(--bg_color);
+	font-size: 40px;	
+}
+
+.scroller-1JbKMe {
+	background-color: var(--bg_color);	
+}
+
 /* Text Bar */
-.headerTop-3C2Zn0, .fontSize16Padding-3Wk7zP{
-	background-color: #1b354f;
+.headerTop-3C2Zn0, .fontSize16Padding-3Wk7zP, .scrollableContainer-2NUZem{
+	background-color: var(--sec_bg_color);
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
 }
 .form-2fGMdU {
-	outline:5px solid #5D7EF3;
-	background-color: #25496D;
+	outline:5px solid var(--middle_color);
+	background-color: var(--bg_color);
+}
+
+.form-2fGMdU:before{
+	background: none;
+	background-color: var(--bg_color);
 }
 
 /* Profile Stuff*/
@@ -31,51 +115,84 @@
 	border-radius: 5px;
 }
 
-.header-QKLPzZ, .activity-1ythUs, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .headerTop-3C2Zn0{
+.wrapper-35wsBm, .container-1giJp5, .header-QKLPzZ, .activity-1ythUs, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .headerTop-3C2Zn0{
 	border:2px solid #465CD5;
-	border:5px solid #5D7EF3;
+	border:5px solid var(--middle_color);
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
-	background-color: #25496D;
+	background-color: var(--bg_color);
 }
 
 /* Server Stuffs */
+
+/* Server Notif */
+.item-2hkk8m:before {
+	font-family: PKMN Mystery Dungeon;
+	color: #FFFFFF;
+	content: "!";
+	font-size: 30px;
+	float: left;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
+	position: relative;
+	background-color: var(--bg_color);	
+	padding-top: 5px;
+	padding-left: 5px;
+	height: 100%;
+}
 
 /* Channels */
 
 .clickable-2ap7je .header-2o-2hj {
 	border:2px solid #465CD5;
-	border:5px solid #5D7EF3;
+	border:5px solid var(--middle_color);
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
-	background-color: #25496D;
+	background-color: var(--bg_color);
 }
 
 
 /* Sidebar Looks*/
 .scroller-2wx7Hm, .scroller-2TZvBN, .container-3baos1 {
 	border:2px solid #465CD5;
-	border:5px solid #5D7EF3;
+	border:5px solid var(--middle_color);
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
   	padding-left: 2px;
-	background-color: #25496D;
+	background-color: var(--bg_color);
+}
+
+/* Unread */
+.unreadBar-3YD_k9 {
+	background-color: #5D7EF3;
+	font-family: PKMN Mystery Dungeon;
+	font-size: 20px;
+	text-shadow:1px 1px 0 #000000,
+		2px 2px 0px #000000;
+}
+
+/* VA Voices */
+.icon-3BcwQu, .username-lm8y6T {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 20px;
+	text-shadow:1px 1px 0 #000000,
+		2px 2px 0px #000000;	
 }
 
 /* Folder Looks */
 .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK, .childWrapper-anI2G9, #bd-pub-button {
-	background-color: #1b354f;
+	background-color: var(--sec_bg_color);
 }
 
 /* Category Stuff */
 .wrapper-CU3qI5 {
 	outline:2px solid #465CD5;
-	outline:5px solid #5D7EF3;
+	outline:5px solid var(--middle_color);
 }
 
 /* Notification !*/
@@ -88,11 +205,17 @@
 	2px 2px 0px #000000;
 	position: relative;
 	bottom: 10px;
-	animation: blinkingText;
-	background-color: #25496D;
+	animation: .5s steps(1, end) 0s infinite alternate blinkingText;
+	animation-iteration-count: infinite;
+	background-color: var(--bg_color);
 }
 @keyframes blinkingText{
-    50%{    color:#FFFFFF; text-shadow: 2px 2px 0 #000000;}
+    0%{    color: transparent;
+	text-shadow: 1px 1px 0px transparent,
+	2px 2px 0px transparent;}
+    50%{    color:#FFFFFF;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;}
 }
 
 /* Categories */
@@ -142,14 +265,14 @@
 	height: 42px;
 	width: 42px;
 	border:1px solid #465CD5;
-	border:3px solid #5D7EF3;
+	border:3px solid var(--middle_color);
 }
 
 /* Chat Messages */
 .markupRtl-3M0hmN {
 	border-radius: 5px;
 	border:1px solid #465CD5;
-	border:3px solid #5D7EF3;
+	border:3px solid var(--middle_color);
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
 	background-color: #25496D;
@@ -166,10 +289,10 @@
 	text-indent: 5px;
 	border-radius: 5px;
 	border:1px solid #465CD5;
-	border:3px solid #5D7EF3;
+	border:3px solid var(--middle_color);	
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
-	background-color: #25496D;
+	background-color: var(--bg_color);
 	font-family: PKMN Mystery Dungeon;
 	font-size: 24px;
 	padding-top: 2px;
@@ -182,11 +305,35 @@
 .messages-3amgkR {
 	/* Replace this with your custom background image*/
 	background-image: url(https://i.imgur.com/KFBqCiN.png);
+	/*background-color: var(--sec_bg_color);*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+/* Server Invite Button*/
+.lookFilled-1Gx00P.colorGreen-29iAKY { 
+	background-color: var(--bg_color);
+}
+
+/* Embed */
+.grid-1nZz7S {
+	background-color: var(--bg_color);	
+	font-family: PKMN Mystery Dungeon;
+	font-size: 24px;
+}
+
+.embedDescription-1Cuq9a, .embedFields-2IPs5Z, .embedFooter-3yVop-, .embedProvider-3k5pfl, .embedTitle-3OXDkz {
+	background-color: var(--bg_color);	
+	font-family: PKMN Mystery Dungeon;
+	font-size: 24px;	
+}
+
+/* Message Sent Time */
+.timestampCozy-1HNQR2 {
+	font-family: PKMN Mystery Dungeon;
+	font-size: 16px;	
+}
 /*
 Chat Images
 img {
