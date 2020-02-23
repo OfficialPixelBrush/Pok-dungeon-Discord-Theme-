@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.5.2
+ * @version 0.6
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -20,9 +20,18 @@
 	--sec_bg_color: #1b354f;
 }
 
+@font-face {
+  font-family: "PMD2Extra";
+  src: url("./fonts/PMD2Extra.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/PMD2Extra.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/PMD2Extra.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Top Bar */
 .container-1r6BKw, .container-1r6BKw *, .title-29uC1r {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 20px;	
 }
 
@@ -37,7 +46,7 @@
 
 /* Context Menu */
 .contextMenu-HLZMGh {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	background-color: var(--sec_bg_color);
 }
 
@@ -48,7 +57,7 @@
 
 /* Friends List */
 .layout-2DM8Md {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	border:5px solid var(--middle_color);
 	background-color: var(--bg_color);
 	font-size: 40px;	
@@ -56,31 +65,31 @@
 
 /* Username */
 .roleColor-rz2vM0 {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 20px;
 }
 
 /* Activity Text */
 .activityText-yGKsKm, .headerText-1HLrL7{
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 16px;	
 }
 
 .activity-11LB_k, .theme-dark .activityUserPopout-2yItg2  {
 	background-color: var(--bg_color);
 	border:5px solid var(--middle_color);
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 16px;	
 }
 
 /* Bot Tag */
 .botTag-3W9SuW, .activityStreamPreview-3r3GiX .textRow-19NEd_, .activityUserPopout-2yItg2 .textRow-19NEd_ {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 16px;		
 }
 
 .selected-aXhQR6 .layout-2DM8Md {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	border:5px solid var(--middle_color);
 	background-color: var(--bg_color);
 	font-size: 40px;	
@@ -93,7 +102,7 @@
 /* Text Bar */
 .headerTop-3C2Zn0, .fontSize16Padding-3Wk7zP, .scrollableContainer-2NUZem{
 	background-color: var(--sec_bg_color);
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 24px;
 }
 .form-2fGMdU {
@@ -129,7 +138,7 @@
 
 /* Server Notif */
 .item-2hkk8m:before {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	color: #FFFFFF;
 	content: "!";
 	font-size: 30px;
@@ -170,7 +179,7 @@
 /* Unread */
 .unreadBar-3YD_k9 {
 	background-color: #5D7EF3;
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 20px;
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
@@ -178,7 +187,7 @@
 
 /* VA Voices */
 .icon-3BcwQu, .username-lm8y6T {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 20px;
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;	
@@ -197,7 +206,7 @@
 
 /* Notification !*/
 .unread-3zKkbm:before {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	color: #FFFFFF;
 	content: "!";
 	font-size: 30px;
@@ -220,7 +229,7 @@
 
 /* Categories */
 .name-IbjUBS {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 15px;	
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
@@ -229,7 +238,7 @@
 
 /* Server Name */
 .clickable-2ap7je .header-2o-2hj {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
 	color: #FFFFFF;
@@ -238,7 +247,7 @@
 
 /* Channel Font */
 .name-3_Dsmg {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 20px;	
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
@@ -276,7 +285,7 @@
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
 	background-color: #25496D;
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 24px;
 	padding-top: 2px;
   	padding-right: 2px;
@@ -293,7 +302,7 @@
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
 	background-color: var(--bg_color);
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 24px;
 	padding-top: 2px;
   	padding-right: 2px;
@@ -319,19 +328,19 @@
 /* Embed */
 .grid-1nZz7S {
 	background-color: var(--bg_color);	
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 24px;
 }
 
 .embedDescription-1Cuq9a, .embedFields-2IPs5Z, .embedFooter-3yVop-, .embedProvider-3k5pfl, .embedTitle-3OXDkz {
 	background-color: var(--bg_color);	
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 24px;	
 }
 
 /* Message Sent Time */
 .timestampCozy-1HNQR2 {
-	font-family: PKMN Mystery Dungeon;
+	font-family: PMD2Extra;
 	font-size: 16px;	
 }
 /*
@@ -343,7 +352,7 @@ img {
 	text-shadow:1px 1px 0 #000000,
 		2px 2px 0px #000000;
 	background-color: #25496D;
-	font-family: PKMN Mystery Dungeon;
+	font-family: var(--PMD2Extra);
 	font-size: 24px;
 	padding-top: 2px;
   	padding-right: 2px;
