@@ -6,7 +6,7 @@ A attempt to replicate the design queues of the first Pokémon Mystery Dungeon G
 
 # Install Instructions:
 - Download the Pokedungeon.theme.css file
-- Download the PKMN Mystery Dungeon Font, available here: https://www.dafont.com/pkmn-mystery-dungeon.font
+- Download the PKMN Mystery Dungeon Font, available here: https://github.com/OfficialPixelBrush/Pokedungeon--Discord-Theme-/raw/master/PMD2Extra.ttf
 - Install the Font File
 - Place the Pokedungeon.theme.css file in your Themes folder (Mine is in C:\Users\[name]\AppData\Roaming\BetterDiscord\themes)
 - Restart Discord
