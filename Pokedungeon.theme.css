@@ -1,7 +1,7 @@
 /**
  * @name Pokédungeon
  * @author Pixel Brush
- * @version 0.6
+ * @version 0.7
  * @description A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
  * @source 
  * @website 
@@ -66,7 +66,7 @@
 /* Username */
 .roleColor-rz2vM0 {
 	font-family: PMD2Extra;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 /* Activity Text */
@@ -124,9 +124,16 @@
 	border-radius: 5px;
 }
 
-.wrapper-35wsBm, .container-1giJp5, .header-QKLPzZ, .activity-1ythUs, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .headerTop-3C2Zn0{
+/* Box with Border */
+.header-ykumBX, .wrapper-35wsBm, .theme-dark .footer-1fjuF6, .panel-24C3ux{
 	border:2px solid #465CD5;
 	border:5px solid var(--middle_color);
+	background-color: var(--bg_color);
+}
+
+/* Box with thin Border and Padding */
+.base-19D3Qq h1, .section-2gLsgF		 {
+	border:2px solid var(--middle_color);
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
@@ -134,7 +141,54 @@
 	background-color: var(--bg_color);
 }
 
+/* Box with thin Border and no Padding */
+.menu-Sp6bN1, .clickable-2ap7je .header-2o-2hj, .theme-dark .modal-yWgWj-, .section-2gLsgF, .wrapper-3D2qGf, .footer-1kmXd4, .searchBar-6Kv8R2, .container-1giJp5, .header-2o-2hj, .scroller-2FKFPG, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .activity-1ythUs, .header-QKLPzZ, .theme-dark .bodyInner-245q0L, .headerTop-3C2Zn0 {
+	border:2px solid var(--middle_color);
+	background-color: var(--bg_color);
+	font-family: PMD2Extra;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
+}
+
+.itemBase-1Qj4z6, .menu-Sp6bN1 {
+	font-size: 16px;
+}
+
+/* Box with no Border */
+.barButtonBase-3UKlW2, .theme-dark .footer-3rDWdC, .scroller-2TZvBN{
+	background-color: var(--bg_color);
+	font-family: PMD2Extra;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
+	font-size: 24px;
+}
+
+/* Dark Background */
+.inputDefault-_djjkz, .inputDefault-_djjkz, .note-3kmerW textarea:focus, .theme-dark .quickMessage-1yeL4E, .actionButton-uPB8Fs, .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .container-1r6BKw, .searchBar-3dMhjb .icon-38sknP, .searchBar-3dMhjb {
+	background-color: var(--sec_bg_color);
+	font-family: PMD2Extra;
+	text-shadow: 1px 1px 0px #000000,
+	2px 2px 0px #000000;
+}
+
+.children-19S4PO:after {
+	display: none;
+}
+
+.attachWrapper-2TRKBi {
+	border-right:1px solid var(--bg_color);
+}
+
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+	background-color: transparent;
+}
+
 /* Server Stuffs */
+
+/* Server Add and Search Buttons */
+.circleIconButton-jET_ig {
+	background-color: var(--sec_bg_color);
+}
 
 /* Server Notif */
 .item-2hkk8m:before {
@@ -154,21 +208,10 @@
 
 /* Channels */
 
-.clickable-2ap7je .header-2o-2hj {
-	border:2px solid #465CD5;
-	border:5px solid var(--middle_color);
-	padding-top: 2px;
-  	padding-right: 2px;
-  	padding-bottom: 2px;
-  	padding-left: 2px;
-	background-color: var(--bg_color);
-}
-
 
 /* Sidebar Looks*/
-.scroller-2wx7Hm, .scroller-2TZvBN, .container-3baos1 {
-	border:2px solid #465CD5;
-	border:5px solid var(--middle_color);
+.scroller-2wx7Hm, .container-3baos1 {
+	border:3px solid var(--middle_color);
 	padding-top: 2px;
   	padding-right: 2px;
   	padding-bottom: 2px;
@@ -242,6 +285,8 @@
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
 	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
 }
 
 
@@ -252,6 +297,7 @@
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
 	color: #FFFFFF;
+	height: 50%;
 }
 
 
@@ -271,43 +317,27 @@
 /* Chat Avatar Images*/
 .avatar-1BDn8e   {
 	border-radius: 5px;
-	height: 42px;
-	width: 42px;
+	height: 45px;
+	width: 45px;
 	border:1px solid #465CD5;
 	border:3px solid var(--middle_color);
 }
 
-/* Chat Messages */
-.markupRtl-3M0hmN {
-	border-radius: 5px;
-	border:1px solid #465CD5;
-	border:3px solid var(--middle_color);
-	text-shadow:1px 1px 0 #000000,
-		2px 2px 0px #000000;
+/* Messages */
+.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2, .container-3FojY8 {
+	border:3px solid var(--middle_color);	
 	background-color: #25496D;
 	font-family: PMD2Extra;
-	font-size: 24px;
-	padding-top: 2px;
-  	padding-right: 2px;
-  	padding-bottom: 2px;
-  	padding-left: 2px;
+	padding-top: 3px;
+  	padding-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	text-shadow:1px 1px 0 #000000;
 }
 
-/* Chat Username */
-.username-1A8OIy {
-	text-indent: 5px;
-	border-radius: 5px;
-	border:1px solid #465CD5;
-	border:3px solid var(--middle_color);	
-	text-shadow:1px 1px 0 #000000,
-		2px 2px 0px #000000;
-	background-color: var(--bg_color);
-	font-family: PMD2Extra;
+.markupRtl-3M0hmN {
 	font-size: 24px;
-	padding-top: 2px;
-  	padding-right: 2px;
-  	padding-bottom: 2px;
-  	padding-left: 2px;
 }
 
 /* Chat Contents*/
