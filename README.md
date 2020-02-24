@@ -2,7 +2,7 @@
 A attempt to replicate the design queues of the first Pokémon Mystery Dungeon Game.
 
 # Requirements:
-- BandagedBD
+- BandagedBD (https://github.com/rauenzi/BetterDiscordApp/releases)
 
 # Install Instructions:
 - Download the Pokedungeon.theme.css file
