@@ -11,6 +11,7 @@
 - Logo -
 */
 
+
 :root {
 	/* Custom Colors go here */
 	--highlight_color: #A8C0E0;
@@ -27,6 +28,20 @@
     url("./fonts/PMD2Extra.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+}
+
+.html {
+	font-size: 125%;
+}
+
+.alignStretch-DpGPf3, .side-8zPYf6, .item-PXvHYJ, .sidebar-CFHs9e, .da-sidebar, .body-3iLsc4, .da-body, .thin-1ybCId, .scrollerBase-289Jih, .fade-2kXiP2 {
+	font-family: PMD2Extra;
+	background-color: var(--bg_color);
+	font-size: 125%;
+}
+
+.sidebarRegionScroller-3MXcoP da-sidebarRegionScroller thin-1ybCId scrollerBase-289Jih fade-2kXiP2, .listContent-2_qb-y, .da-listContent{
+	background-color: var(--bg_color);
 }
 
 /* Top Bar */
@@ -310,6 +325,7 @@
 	2px 2px 0px #000000;
 	float: left;
 	margin-top: 4%;
+	font-size: 24px;
 }
 
 /*Chat Stuffs*/
@@ -324,11 +340,11 @@
 }
 
 /* Messages */
-.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2, .container-3FojY8 {
+.cozyMessage-3V1Y8y, .message-2qnXI6, .cozyMessage-3V1Y8y, .da-cozyMessage{
 	border:3px solid var(--middle_color);	
 	background-color: #25496D;
 	font-family: PMD2Extra;
-	padding-top: 3px;
+	padding-top: 10px;
   	padding-bottom: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -343,8 +359,8 @@
 /* Chat Contents*/
 .messages-3amgkR {
 	/* Replace this with your custom background image*/
-	background-image: url(https://i.imgur.com/KFBqCiN.png);
-	/*background-color: var(--sec_bg_color);*/
+	/*background-image: url(https://i.imgur.com/KFBqCiN.png);*/
+	background-color: var(--sec_bg_color);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
