@@ -23,9 +23,9 @@
 
 @font-face {
   font-family: "PMD2Extra";
-  src: url("./fonts/PMD2Extra.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/PMD2Extra.woff") format("woff"), /* Modern Browsers */
-    url("./fonts/PMD2Extra.woff2") format("woff2"); /* Modern Browsers */
+  src: url("./fonts/PMD2Extra120.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/PMD2Extra120.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/PMD2Extra120.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +55,7 @@
 }
 
 /* Member Sidebar */
-.members-1998pB {
+.members-1998pB, .members-1998pB>div {
 	background-color: var(--sec_bg_color);
 }
 
@@ -140,7 +140,7 @@
 }
 
 /* Box with Border */
-.header-ykumBX, .wrapper-35wsBm, .theme-dark .footer-1fjuF6, .panel-24C3ux{
+.header-ykumBX, .wrapper-35wsBm, .theme-dark .footer-1fjuF6, .panel-24C3uxm, {
 	border:2px solid #465CD5;
 	border:5px solid var(--middle_color);
 	background-color: var(--bg_color);
@@ -179,7 +179,7 @@
 }
 
 /* Dark Background */
-.inputDefault-_djjkz, .inputDefault-_djjkz, .note-3kmerW textarea:focus, .theme-dark .quickMessage-1yeL4E, .actionButton-uPB8Fs, .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .container-1r6BKw, .searchBar-3dMhjb .icon-38sknP, .searchBar-3dMhjb {
+.panel-24C3ux .da-panel .activityPanel-28dQGo .da-activityPanel, .inputDefault-_djjkz, .inputDefault-_djjkz, .note-3kmerW textarea:focus, .theme-dark .quickMessage-1yeL4E, .actionButton-uPB8Fs, .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .container-1r6BKw, .searchBar-3dMhjb .icon-38sknP, .searchBar-3dMhjb {
 	background-color: var(--sec_bg_color);
 	font-family: PMD2Extra;
 	text-shadow: 1px 1px 0px #000000,
@@ -308,7 +308,6 @@
 /* Channel Font */
 .name-3_Dsmg {
 	font-family: PMD2Extra;
-	font-size: 20px;	
 	text-shadow: 1px 1px 0px #000000,
 	2px 2px 0px #000000;
 	color: #FFFFFF;
@@ -337,19 +336,21 @@
 	width: 45px;
 	border:1px solid #465CD5;
 	border:3px solid var(--middle_color);
+	bottom: 20px;
 }
 
 /* Messages */
-.cozyMessage-3V1Y8y, .message-2qnXI6, .cozyMessage-3V1Y8y, .da-cozyMessage{
+.message-2qnXI6, .message-2qnXI6:hover {
 	border:3px solid var(--middle_color);	
-	background-color: #25496D;
 	font-family: PMD2Extra;
-	padding-top: 10px;
-  	padding-bottom: 10px;
+	padding-top: 10px !important;
+  	padding-bottom: 10px !important;
 	margin-left: 5px;
 	margin-right: 5px;
 	border-radius: 5px;
 	text-shadow:1px 1px 0 #000000;
+	background-color: var(--bg_color) !important;
+	opacity: 100;
 }
 
 .markupRtl-3M0hmN {
@@ -359,8 +360,8 @@
 /* Chat Contents*/
 .messages-3amgkR {
 	/* Replace this with your custom background image*/
-	/*background-image: url(https://i.imgur.com/KFBqCiN.png);*/
-	background-color: var(--sec_bg_color);
+	background-image: url(https://i.imgur.com/KFBqCiN.png);
+	/*background-color: var(--sec_bg_color);*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -389,6 +390,8 @@
 	font-family: PMD2Extra;
 	font-size: 16px;	
 }
+
+
 /*
 Chat Images
 img {
